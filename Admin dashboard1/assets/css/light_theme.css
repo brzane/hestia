@@ -1,0 +1,66 @@
+
+body * {
+  
+  transition: 0.6s;
+}
+
+.sidebar {
+  background-color: #313a46 !important;
+}
+
+.card-header {
+  background-color: #313a46 !important;
+}
+
+.title i {
+  color: #313a46;
+  font-size: 18px;
+}
+.title .title-bar {
+  position: relative;
+}
+.title .title-bar::before {
+  background-color: #313a46;
+}
+.title .title-bar::after {
+  background-color: #313a46;
+}
+.sidebar .nav-item .nav-link:hover {
+  background-color: #6b6b6b;
+  color: #fff;
+}
+
+
+.btn:focus,
+.btn.focus,
+.btn:hover {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(110, 156, 255, 0.25);
+}
+
+
+.dt-button {
+  color: #fff;
+  background-color: #4e73df;
+  border-color: #4e73df;
+}
+
+.dt-button:hover {
+  color: #fff;
+  background-color: #2e59d9;
+  border-color: #2653d4;
+}
+.circle {
+  background: #f4f6fd;
+  border-color: #f4f6fd;
+}
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover {
+  background-color: #4e73df;
+}
+
+.datepicker table tr td.day:hover {
+  background-color:#4e73df;
+}

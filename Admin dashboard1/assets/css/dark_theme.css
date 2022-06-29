@@ -1,0 +1,141 @@
+body{
+  color: #e7e7ec;
+}
+body * {
+  transition: 0.6s;
+}
+
+.sidebar {
+  background-color: #323640 !important;
+}
+.text-primary {
+  color: #03dac6 !important;
+}
+#content-wrapper {
+  background-color: #2b2e37 !important;
+}
+.topbar {
+  background-color: #323640 !important;
+}
+.card {
+  background-color: #323640;
+  border: 1px solid #312e2e;
+}
+.sticky-footer {
+  background-color: #323640 !important;
+}
+
+.dropdown-menu {
+  background-color: #323640 !important;
+}
+.dropdown-item {
+  color: #fff;
+}
+.card-header {
+  background-color: #323640 !important;
+}
+.table {
+  color: #fff !important;
+}
+#sidebarToggle:hover {
+  background-color: #03dac6 !important;
+}
+.dropdown-item:hover {
+  background-color: #03dac6;
+  color: #fff;
+}
+.sidebar .nav-item .nav-link:hover {
+  background-color: #03dac6 !important;
+  color: #fff;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #03dac6 !important;
+  font-weight: bold;
+}
+.btn:focus,
+.btn.focus,
+.btn:hover {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(110, 156, 255, 0.25);
+}
+.modal-content {
+  background-color: #323640;
+}
+
+.fa-spoon {
+  color: #03dac6;
+}
+.form-control {
+  background: #2b2e37;
+  color: #fff;
+}
+.form-control:focus {
+  background-color: #323640;
+  border-color: #bac8f3;
+  color: #fff;
+}
+
+.title i {
+  color: #03dac6 !important;
+  font-size: 18px;
+}
+
+.title .title-bar::before {
+  background-color: #03dac6 !important;
+}
+.title .title-bar::after {
+  background-color: #03dac6 !important;
+}
+.page-item.active .page-link {
+  color: #fff;
+  background-color: #323640;
+  border-color: #fff;
+}
+
+.page-item.disabled .page-link {
+  color: #fff;
+  background-color: #3333;
+  border-color: #dddfeb;
+}
+.page-link {
+  color: #fff;
+  background-color: #333;
+  border: 1px solid #dddfeb;
+}
+
+.page-link:hover {
+  color: #3333;
+  background-color: #eaecf4;
+  border-color: #333;
+}
+
+.dt-button {
+  color: #fff;
+  background-color: #03dac6;
+  border-color: #03dac6;
+}
+
+.dt-button:hover {
+  color: #fff;
+  background-color: #2e59d9;
+  border-color: #2653d4;
+}
+.circle {
+  background: #f4f6fd;
+  border-color: #f4f6fd;
+}
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover {
+  background-color: #03dac6;
+}
+
+.datepicker table tr td.day:hover {
+  background-color:#03dac6;
+}
+.datepicker-days{
+  color:#fff;
+}

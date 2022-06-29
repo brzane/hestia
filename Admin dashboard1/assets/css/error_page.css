@@ -1,0 +1,81 @@
+body {
+  background-color: #001a33;
+}
+
+a {
+  text-decoration: none;
+  color: #03dac6;
+}
+
+.error-container {
+  height: 30vh;
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+
+.error {
+  color: #03dac6;
+  font-family: "Inconsolata";
+  font-size: 15vw;
+  text-align: center;
+  text-shadow: 2px 2px 5px;
+  -webkit-animation: shadow 1s infinite alternate ease-in-out;
+  animation: shadow 1s infinite alternate ease-in-out;
+}
+
+.text {
+  color: #03dac6;
+  font-size: 3vw;
+  font-family: "PT Mono";
+}
+
+.line {
+  -webkit-animation: cursor 1s infinite normal linear;
+  animation: cursor 1s infinite normal linear;
+}
+
+@keyframes shadow {
+  0% {
+    text-shadow: 1px 1px 1px;
+  }
+  100% {
+    text-shadow: 2px 2px 10px;
+  }
+}
+@-webkit-keyframes shadow {
+  0% {
+    text-shadow: 1px 1px 1px;
+  }
+  100% {
+    text-shadow: 2px 2px 10px;
+  }
+}
+@keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes cursor {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+}
