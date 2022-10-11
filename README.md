@@ -2,6 +2,8 @@
 ## Overview
 Hestia is web based  restaurant management system written in HTML , CSS, JS and JQUERY for the front end and PHP & MYSQL for the backend, this project was developed to help
 restaurants and their employees to preform better and easier and to reduce the human error with automation of the daily work and make reports . <br>
+link to the Demo : https://www.youtube.com/watch?v=fglc-H9IU5w <br>
+Note:i had problems deploying this app on a free server so the demo will be youtube video.
 ###  UI preview
 Login Page |     Dashboard Page          |
  :-------------------------:|:-------------------------:|
